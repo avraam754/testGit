@@ -11,7 +11,9 @@ namespace testGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            
+            Console.WriteLine("testGit");
+            string s = Console.ReadLine();
+            Console.WriteLine(s);
         }
     }
 }
