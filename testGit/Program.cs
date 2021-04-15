@@ -8,6 +8,10 @@ namespace testGit
 {
     class Program
     {
+        static void print()
+        {
+            Console.WriteLine("Это функция");
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
